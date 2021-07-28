@@ -1,0 +1,7 @@
+{
+  "name": "frasi-covid",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

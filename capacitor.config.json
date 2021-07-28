@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "frasi-covid",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
