@@ -1,15 +1,31 @@
 ion-toolbar {
   --background: black;
-  opacity: 80%;
-
-  box-shadow: 0px 1px 0px #c6930a;
-
+  box-shadow: 0px 3px 0px #333333;
   // --ion-toolbar-color	: #c6930a;
+
   ion-title {
     color: #c6930a;
-    font-weight: 600;
+    text-align: center;
+    font-size: 1.8em;
   }
 }
 ion-content {
   --background: #000000;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ion-button {
+  --background: #000000;
+  color: #c6930a;
+  width: 100px;
+  height: 100px;
+  padding: 1px;
+  margin: auto;
+  font-size: 1.7em;
+  display: block;
 }
