@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-tab2',
+  selector: 'app-start-page',
   templateUrl: 'tab2.page.html',
-  styleUrls: ['tab2.page.scss']
+  styleUrls: ['tab2.page.scss'],
 })
 export class Tab2Page {
-
   constructor() {}
 
+  showAlert() {
+    alert('Starting the game');
+  }
 }
